@@ -16,6 +16,7 @@
         app:defaultNavHost="true"
         app:navGraph="@navigation/nav_graph" />
 
+
     <VideoView
         android:id="@+id/viewVideo"
         android:layout_width="match_parent"
@@ -27,6 +28,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:letterSpacing="0.01"
+        android:textColor="#494c59"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/my_nav_host_fragment"
+        app:layout_constraintEnd_toEndOf="@+id/viewVideo"
+        app:layout_constraintStart_toStartOf="@+id/viewVideo"
+        app:layout_constraintTop_toTopOf="@+id/viewVideo"
+        tools:text="Faucet" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

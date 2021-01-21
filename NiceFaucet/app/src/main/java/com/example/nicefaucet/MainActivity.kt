@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         videoView!!.setMediaController(mediaControls)
 
         // set the absolute path of the video file which is going to be played
-        videoView!!.setVideoURI(Uri.parse("android.resource://" + packageName + "/" + R.raw.animation))
+        videoView!!.setVideoURI(Uri.parse("android.resource://" + packageName + "/" + R.raw.animation1))
 
 
         videoView!!.requestFocus()
