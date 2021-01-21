@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     //declaring a null variable for MediaController
     var mediaControls: MediaController? = null
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
