@@ -62,7 +62,5 @@ class MainActivity : AppCompatActivity() {
             ).show()
             false
         }
-
     }
-
 }
