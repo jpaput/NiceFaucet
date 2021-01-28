@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/map_view"
+        android:icon="@drawable/map1"
+        android:title="Map View"/>
+
+    <item
+        android:id="@+id/listView"
+        android:icon="@drawable/file"
+        android:title="List View"/>
+
+    <item
+        android:id="@+id/workMatesList"
+        android:icon="@drawable/group"
+        android:title="WorkMates"/>
+    
+</menu>
