@@ -1,11 +1,8 @@
 package com.example.nicefaucet
 
 import android.net.Uri
-import android.os.Build
 import android.os.Bundle
 import android.view.View
-import android.widget.MediaController
-import android.widget.Toast
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -14,7 +11,6 @@ class MainActivity : AppCompatActivity() {
 
     //declaring  a null variable for VideoView
     var videoView: VideoView? = null
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         videoView = findViewById<View>(R.id.viewVideo) as VideoView
 
          }
+
     override fun onResume() {
         super.onResume()
 

@@ -3,16 +3,16 @@
     <item
         android:id="@+id/map_view"
         android:icon="@drawable/map1"
-        android:title="Map View"/>
+        android:title="@string/map_view"/>
 
     <item
         android:id="@+id/listView"
         android:icon="@drawable/file"
-        android:title="List View"/>
+        android:title="@string/list_view"/>
 
     <item
         android:id="@+id/workMatesList"
         android:icon="@drawable/group"
-        android:title="WorkMates"/>
-    
+        android:title="@string/workmates"/>
+
 </menu>
