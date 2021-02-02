@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.nicefaucet.MainFragment"
+        android:name="com.example.nicefaucet.SplashFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_splash">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/dashBoardFragment"
-        android:name="com.example.nicefaucet.dashBoardFragment"
+        android:name="com.example.nicefaucet.DashBoardFragment"
         android:label="fragment_dash_board"
         tools:layout="@layout/fragment_dash_board">
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/accountFragment"
-        android:name="com.example.nicefaucet.accountFragment"
+        android:name="com.example.nicefaucet.AccountFragment"
         android:label="fragment_account"
         tools:layout="@layout/fragment_account">
         <action
@@ -72,7 +72,7 @@
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/signinFragment"
-        android:name="com.example.nicefaucet.signinFragment"
+        android:name="com.example.nicefaucet.SigninFragment"
         android:label="fragment_signin"
         tools:layout="@layout/fragment_signin">
         <action
@@ -81,7 +81,7 @@
     </fragment>
     <fragment
         android:id="@+id/menuFragment"
-        android:name="com.example.nicefaucet.menuFragment"
+        android:name="com.example.nicefaucet.MenuFragment"
         android:label="fragment_menu"
         tools:layout="@layout/fragment_menu">
         <action
@@ -93,7 +93,7 @@
     </fragment>
     <fragment
         android:id="@+id/walletFragment"
-        android:name="com.example.nicefaucet.walletFragment"
+        android:name="com.example.nicefaucet.WalletFragment"
         android:label="fragment_wallet"
         tools:layout="@layout/fragment_wallet" />
 </navigation>
