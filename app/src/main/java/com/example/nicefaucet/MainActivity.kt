@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         mAuth = FirebaseAuth.getInstance()
 
-        Toast.makeText(this, "Welcome", Toast.LENGTH_SHORT).show()
+
     }
 
 }
