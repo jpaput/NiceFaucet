@@ -13,10 +13,10 @@
         android:theme="@style/splashScreenTheme">
         <activity
             android:name=".SignInActivity"
-            android:label="@string/title_activity_sign_in"
-            android:theme="@style/splashScreenTheme.NoActionBar"></activity>
-        <activity android:name=".SplashActivity" />
-        <activity android:name=".MainActivity">
+            android:label="@string/title_activity_sign_in"></activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SplashActivity"
+            android:theme="@style/splashScreenTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

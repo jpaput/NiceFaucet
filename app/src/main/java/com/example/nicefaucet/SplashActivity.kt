@@ -5,9 +5,11 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.view.WindowManager
 import android.widget.VideoView
 
 class SplashActivity : AppCompatActivity() {
+
     private var userIsSignedIn = false
     //animation value
     private val animDuration = 3000 //time in ms
@@ -17,6 +19,9 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //setTheme(R.style.Theme_NiceFaucet)
         setContentView(R.layout.activity_splash)
+        // This is used to hide the status bar and make
+        // the splash screen as a full screen activity.
+
     }
 
     override fun onResume() {
