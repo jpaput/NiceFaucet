@@ -30,7 +30,7 @@ class SplashActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         val videoView = findViewById<VideoView>(R.id.videoView)
-        val textView: TextView = findViewById(R.id.logo)
+
         animDuration
         // set the absolute path of the video file which is going to be played
 
