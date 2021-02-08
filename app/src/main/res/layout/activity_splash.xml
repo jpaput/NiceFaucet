@@ -8,13 +8,32 @@
     tools:context=".SplashActivity">
 
 
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="214dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="376dp"
+        android:fontFamily="@font/hk_grotesk"
+        android:gravity="center_horizontal"
+        android:letterSpacing="0.01"
+        android:text="@string/nice_faucet"
+        android:textColor="#494c59"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/videoView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <VideoView
         android:id="@+id/videoView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
