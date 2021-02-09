@@ -18,4 +18,5 @@
 
     <string name="nice_faucet">NICE FAUCET</string>
     <string name="logo">logo</string>
+    <string name="signIn">Google Button</string>
 </resources>
