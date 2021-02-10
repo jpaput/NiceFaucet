@@ -9,18 +9,20 @@
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
-        android:layout_width="187dp"
-        android:layout_height="39dp"
+        android:layout_width="268dp"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="12dp"
+        android:textAlignment="center"
         app:icon="@drawable/google_g_logo"
         app:layout_constraintBottom_toTopOf="@+id/sign_up"
+        app:layout_constraintCircleRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent">
 
     </com.google.android.gms.common.SignInButton>
@@ -42,29 +44,36 @@
 
     <Button
         android:id="@+id/log_in"
-        android:layout_width="185dp"
-        android:layout_height="43dp"
-        android:layout_marginBottom="20dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
         android:backgroundTint="@color/white"
         android:stateListAnimator="@null"
-        android:text="Sign Up"
+        android:text="Sign up"
+        android:textAllCaps="false"
         android:textColor="#0e47d7"
+        android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/textView_privacy"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:rippleColor="#FFFFFF" />
 
     <Button
         android:id="@+id/sign_up"
-        android:layout_width="186dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="25dp"
-        android:text="Log In"
-        android:textColor="#030d26"
+        android:layout_width="265dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
         android:backgroundTint="@color/white"
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textColor="#030d26"
+        android:textSize="14sp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toTopOf="@+id/log_in"
+        app:layout_constraintCircleRadius="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
