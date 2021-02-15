@@ -19,4 +19,8 @@
     <string name="nice_faucet">NICE FAUCET</string>
     <string name="logo">logo</string>
     <string name="signIn">Google Button</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
