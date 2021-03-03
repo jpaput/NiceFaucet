@@ -32,9 +32,11 @@ class MainActivity : AppCompatActivity() {
             if (user !=null){
                 var dashboardIntent = Intent (this, DashBoardFragment ::class.java)
                 startActivity(dashboardIntent)
+                finish()
             }else{
                 val signIntent = Intent(this, SignInActivity::class.java)
                 startActivity(signIntent)
+                finish()
             }
         }, 2000)
     }

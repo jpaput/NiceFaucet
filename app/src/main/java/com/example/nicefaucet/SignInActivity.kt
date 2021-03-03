@@ -88,7 +88,7 @@ class SignInActivity : AppCompatActivity() {
                     finish()
                 } else {
                     // If sign in fails, display a message to the user.
-                    Log.w("SignInActivity", "signInWithCredential:failure", task.exception)
+                    Log.d("SignInActivity", "signInWithCredential:failure")
 
 
                 }
