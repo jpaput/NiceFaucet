@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cloth_0223"
+    android:orientation="vertical"
+    tools:context=".SignInFragment">
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="598dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="79dp"
+        android:text="@string/sign_in_with_google"
+        app:icon="@drawable/google_g_logo">
+
+
+    </com.google.android.gms.common.SignInButton>
+
+
+</RelativeLayout>
+
+
+
+
+
+
